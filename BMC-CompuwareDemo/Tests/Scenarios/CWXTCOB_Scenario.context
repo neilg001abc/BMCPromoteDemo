@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5c519facfba8720a90ccc645" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="HAUNXG0.CODE.COVERAGE" ccsystem="CWC2TEST" cctestid="TESTCWC2" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.CWC2.FTS4.DEV1.LOAD</Value>
+      <Value>HAUNXG0.APAC.TRAIN.LOAD.PDSE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

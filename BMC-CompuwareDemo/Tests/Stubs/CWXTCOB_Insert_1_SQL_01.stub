@@ -1,0 +1,1084 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Tests/Stubs/CWXTCOB_Insert_1_SQL_01.stub" nextCalltoken="40014" stubtype="SQL" target="Insert" token="40000">
+  <stub:description>Created: Feb 4, 2021 1:46:49 PM</stub:description>
+  <stub:stubdata id="0" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D1D6C8D540E2D4C9E3C84040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D6D9E3C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000039C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F8F34BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F8F34BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40001">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D9D6E840C7C1D9C4D5C5D940404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D6D9E3C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000028C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F7F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F3F3F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F4F0F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40002">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C4C1D540D7C5C1D9E2D6D540404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">D5D6D9E3C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000031C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F8F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F8F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40003">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D4C9C3C8C1C5D340C4C1E8E3D6D540</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E2D6E4E3C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000038C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F8F2F54BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F6F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F6F8F2F54BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40004">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C4C5D5D5C9E240E6C8C9E3C5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E2D6E4E3C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000032C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F1F2F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F2F1F7F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40005">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E5C1D3C5D9C9C540D6D3E2C5D54040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">C5C1E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000026C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F9F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F3F3F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F4F2F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40006">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D3C1E4D9C140D4C1D9E3C9D5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">C5C1E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000037C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F2F2F54BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F6F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F7F2F2F54BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40007">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D4C1D9C3C9C140E2E4D3D3C9E5C1D5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">C5C1E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000027C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F2F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F1F8F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F3F8F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40008">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D1C1D4C5E240D4D6D9D9C9E2D6D540</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">C5C1E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000029C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F1F74BF5F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F1F74BF5F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40009">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3C8D6D4C1E240D3D6D5C740404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E6C5E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000033C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40010">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">C4D6D5D5C140C2D9D6E6D540404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E6C5E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000039C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F3F3F3F34BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F4F3F3F34BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40011">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E2C1D4E4C5D340C1C4C4C1D4E24040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E6C5E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000035C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F1F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">404040F8F24BF5F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F1F1F8F24BF5F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40012">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="Insert">
+    <stub:interface>../Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface#Tests/Interfaces/CWXTCOB_Insert_1_EMP_TB_DTL_TOTAL.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-NAME.listructure#EMP_TB_NAME" id="arg0.EMP_TB_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D4C1D9D240D1D6C8D5E2D6D5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-REGION.listructure#EMP_TB_REGION" id="arg1.EMP_TB_REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">E6C5E2E340</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-TYPE.listructure#EMP_TB_TYPE" id="arg2.EMP_TB_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-YRS-SERVICE.listructure#EMP_TB_YRS_SERVICE" id="arg3.EMP_TB_YRS_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000038C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-WAGES.listructure#EMP_TB_WAGES" id="arg4.EMP_TB_WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">4040F7F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-OT.listructure#EMP_TB_OT" id="arg5.EMP_TB_OT">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-COMM.listructure#EMP_TB_COMM" id="arg6.EMP_TB_COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">40F6F0F0F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#Tests/Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWXTCOB/CWXTCOB_Insert_EMP-TB-DTL-TOTAL.listructure#EMP_TB_DTL_TOTAL" id="arg7.EMP_TB_DTL_TOTAL">
+        <properties:properties>
+          <properties:property name="value" type="string">40F6F7F5F04BF0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****EXEC SQL
+      *****INSERT INTO EMP
+      *****VALUES(:EMP-TB-NAME,
+      *****:EMP-TB-REGION,
+      *****:EMP-TB-TYPE,
+      *****:EMP-TB-YRS-SERVICE,
+      *****:EMP-TB-WAGES,
+      *****:EMP-TB-OT,
+      *****:EMP-TB-COMM,
+      *****:EMP-TB-DTL-TOTAL)
+      *****END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43575854434F42201B26C780076CECF0000137CFEE7037CFF0180000000004B800E8000002570000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001700008000801C4000F37CFEE3037CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000537CFEE3F37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000137CFEE4437CFEFA8000040404040404040404040404040404040404040404040404040404040404001E4090037CFEE4537CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE4A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5237CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE5A37CFEFA8000040404040404040404040404040404040404040404040404040404040404001C4000837CFEE6237CFEFA80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="40013">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFC61000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C4E2D5C5D3C940400000000000000000000000000000000000000000000000004040404040404040404040F5F1F0F0F6</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="0000"/>
+</stub:stub>
