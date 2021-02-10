@@ -1,0 +1,66 @@
+<Connections>
+  <Connection>
+    <id>10.10.0.200:16196</id>
+    <ipaddress>10.10.0.200</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://10.10.0.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>HAUNXGDB</databaseName>
+    <description>CW01</description>
+    <label>CW01</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>192.168.96.142:16196</id>
+    <ipaddress>192.168.96.142</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:2846/${​​database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>DSC2MSTR</databaseName>
+    <description>CWC2</description>
+    <label>CWC2</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17Q.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>10.100.4.110:16196</id>
+    <ipaddress>10.100.4.110</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://10.100.4.110:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>cw11</description>
+    <label>cw11</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>b09ebde4-200b-4868-8469-8b71babf9efa</id>
+    <ipaddress>192.168.96.130</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>CWCC</description>
+    <label>CWCC</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq>SYS2.CW.CXR17Q.SLCXLOAD</datasethlq>
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;VALUE&gt;" />
+    </jclproperties>
+  </Connection>
+</Connections>
