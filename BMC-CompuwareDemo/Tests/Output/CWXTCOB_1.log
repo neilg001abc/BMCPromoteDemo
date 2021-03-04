@@ -1,0 +1,45 @@
+22:22:40.219 INFO      TOPAZ            ***************************************
+22:22:40.219 INFO      TOPAZ            ** Execution from Topaz with options **
+22:22:40.219 INFO      TOPAZ            ***************************************
+22:22:40.219 INFO      TOPAZ            Using repository: true
+22:22:40.219 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+22:22:40.219 INFO      TOPAZ            ***************************************
+22:22:40.219 INFO      Engine           Test Scenario execution started
+22:22:40.219 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 5b5089c9787be73b59238d35
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HAUNXG0
+  Use Repository Server         : true
+22:22:40.219 INFO      Engine           Setting variables from context and context data extensions
+22:22:40.219 INFO      Engine             id: environmentId      value: 5b5089c9787be73b59238d35
+22:22:40.219 INFO      Engine             id: environmentType    value: BATCH
+22:22:40.219 INFO      Engine             id: userId             value: HAUNXG0
+22:22:40.219 INFO      Engine             id: accountingInfo     value: 
+22:22:40.235 INFO      Component        Interpreting Component: CWXTCOB program:CWXTCOB
+22:22:40.282 INFO      CWC2 Batch       Sending Module execution request to Host for module:CWXTCOB rollback:false
+22:22:40.559 INFO      HCIClient        User directory /u/xatester/haunxg0 does not exist. Now trying to create it
+22:22:41.039 INFO      HCIClient        Creating job directory /u/xatester/haunxg0/91b63ff6b84843c4aa573284094731f9
+22:22:43.526 INFO      HCIClient        Job has been started at host with JobId:J0104919
+22:22:50.191 INFO      CWC2 Batch       Job execution completed with status:
+  Job status     : ABEND
+  Job status msg : Job HAUNXG0E(J0104919) ended with ABEND code: 
+  Job name       : HAUNXG0E
+  Job id         : J0104919
+  Return code    : 
+  Abend code     : 
+  Abend reason   : 
+22:22:50.445 WARNING   CWC2 Batch       Error deleting job directory /u/xatester/haunxg0/91b63ff6b84843c4aa573284094731f9: Unable to delete directory /u/xatester/haunxg0/91b63ff6b84843c4aa573284094731f9. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+22:22:50.445 ERROR     CWC2 Batch       Unable to cleanup files. com.compuware.totaltest.common.hci.api.exceptions.HciServicesFileIOException: Unable to delete directory /u/xatester/haunxg0/91b63ff6b84843c4aa573284094731f9. Reason An error occurred while processing the requested action. If possible, capture the dump from the HCI and contact Compuware Customer Support with the details of this error.
+22:22:50.445 ERROR     Engine           Unable to execute the module:CWXTCOB at the host. Unable to execute at server. Job abended
+22:22:50.445 ERROR     Engine           An error occurred. Now stopping the execution.
+22:22:50.445 INFO      Engine           Test Scenario execution ended
