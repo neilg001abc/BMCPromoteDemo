@@ -9,6 +9,14 @@
         </PARMINFO>
       </Data>
     </Component>
+    <SQLSelect id="id" description="count rows" maxRows="20">
+      <Statement>SELECT COUNT(*) AS CNT FROM EMP</Statement>
+      <Output name="COUNT" />
+    </SQLSelect>
+    <Verify name="Verify" haltExecution="true">
+      <Expected>7</Expected>
+      <Actual />
+    </Verify>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">
