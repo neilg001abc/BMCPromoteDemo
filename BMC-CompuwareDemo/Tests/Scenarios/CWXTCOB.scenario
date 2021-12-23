@@ -9,6 +9,19 @@
         </PARMINFO>
       </Data>
     </Component>
+    <SQLSelect id="id" maxRows="20">
+      <Statement>SELECT COUNT(*) AS NUM FROM FTS4QA.EMP</Statement>
+      <Output name="COUNT" />
+    </SQLSelect>
+    <If name="If" expression="7 == ${id}" />
+    <Variable id="id1" description="&#xD;&#xA;=&#xD;&#xA;">
+      <data:Replaceable>
+        <Expression>
+          <Statement><![CDATA[${id}]]></Statement>
+        </Expression>
+      </data:Replaceable>
+    </Variable>
+    <Log>value is ${id1}</Log>
   </Test>
   <MetaData>
     <Component name="CWXTCOB" type="COBOL">
